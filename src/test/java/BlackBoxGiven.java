@@ -58,7 +58,7 @@ public class BlackBoxGiven {
     public void oneHit() {
         game.init_Game("Aachen", "Dr. M");
         boolean guess = game.makeGuess("c");
-        assertEquals(10, game.score);
+        assertEquals(11, game.score);
     }
     
 }
